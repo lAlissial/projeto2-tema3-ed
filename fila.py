@@ -52,7 +52,7 @@ class FilaEncadeada:
         self._tamanho -= 1
 
 
-    def mostrar_elemento_pilha(self):
+    def mostrar_elemento_fila(self):
         if self.vazia_fila():
             raise FilaException('A fila está vazia')
 
